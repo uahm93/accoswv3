@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SesionFragment"
+    >
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo"
+
+        android:contentDescription="TODO" />
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="7dp"
+        android:hint="INGRESAR USUARIO"
+        android:layout_gravity="center"
+        android:inputType="text"
+        android:background="@drawable/botones2"
+        android:drawableRight="@drawable/user"
+        />
+    <EditText
+        android:id="@+id/txtPwd"
+        android:layout_width="330dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="7dp"
+        android:hint="INGRESAR CONTRASEÑA"
+        android:inputType="textPassword"
+        android:layout_gravity="center"
+        android:background="@drawable/botones2"
+        android:drawableRight="@drawable/pw"
+        />
+
+    <Button
+
+        android:id="@+id/btnSesion"
+        android:layout_marginTop="10dp"
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:drawableRight="@drawable/entrar"
+        android:text="INICIAR"
+        android:background="@drawable/botones"
+        />
+
+</LinearLayout>
